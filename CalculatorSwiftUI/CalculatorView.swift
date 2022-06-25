@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct CalculatorView: View {
+    @State var currentNumber: Int = 0
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 0.0) {
+            Spacer()
+            NumberText(currentNumber: $currentNumber)
+            ButtonsView()
+        }
+        .padding()
     }
 }
 
