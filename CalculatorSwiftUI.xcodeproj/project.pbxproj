@@ -89,12 +89,20 @@
 		E97D1D4A286742E30000A7B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E97D1D45286742290000A7B7 /* CalculatorButtonStyle */,
+				E97D1D4B2867432B0000A7B7 /* ButtonsView */,
 				E9117E5C2866FC3500D1EB3E /* CalculatorView.swift */,
-				E97D1D48286742900000A7B7 /* ButtonsView.swift */,
 				E97D1D462867425B0000A7B7 /* NumberText.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E97D1D4B2867432B0000A7B7 /* ButtonsView */ = {
+			isa = PBXGroup;
+			children = (
+				E97D1D45286742290000A7B7 /* CalculatorButtonStyle */,
+				E97D1D48286742900000A7B7 /* ButtonsView.swift */,
+			);
+			path = ButtonsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
