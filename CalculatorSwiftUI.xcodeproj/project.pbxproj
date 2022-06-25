@@ -62,10 +62,7 @@
 			children = (
 				E9117E68286721EA00D1EB3E /* Info.plist */,
 				E9117E5A2866FC3500D1EB3E /* CalculatorSwiftUIApp.swift */,
-				E97D1D45286742290000A7B7 /* CalculatorButtonStyle */,
-				E9117E5C2866FC3500D1EB3E /* CalculatorView.swift */,
-				E97D1D48286742900000A7B7 /* ButtonsView.swift */,
-				E97D1D462867425B0000A7B7 /* NumberText.swift */,
+				E97D1D4A286742E30000A7B7 /* Views */,
 				E9117E5E2866FC3800D1EB3E /* Assets.xcassets */,
 				E9117E602866FC3800D1EB3E /* Preview Content */,
 			);
@@ -87,6 +84,17 @@
 				E97D1D432867420B0000A7B7 /* CalculatorButtonStyle.swift */,
 			);
 			path = CalculatorButtonStyle;
+			sourceTree = "<group>";
+		};
+		E97D1D4A286742E30000A7B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E97D1D45286742290000A7B7 /* CalculatorButtonStyle */,
+				E9117E5C2866FC3500D1EB3E /* CalculatorView.swift */,
+				E97D1D48286742900000A7B7 /* ButtonsView.swift */,
+				E97D1D462867425B0000A7B7 /* NumberText.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
