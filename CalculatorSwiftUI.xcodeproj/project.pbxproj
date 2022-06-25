@@ -8,17 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		E9117E5B2866FC3500D1EB3E /* CalculatorSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9117E5A2866FC3500D1EB3E /* CalculatorSwiftUIApp.swift */; };
-		E9117E5D2866FC3500D1EB3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9117E5C2866FC3500D1EB3E /* ContentView.swift */; };
+		E9117E5D2866FC3500D1EB3E /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9117E5C2866FC3500D1EB3E /* CalculatorView.swift */; };
 		E9117E5F2866FC3800D1EB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9117E5E2866FC3800D1EB3E /* Assets.xcassets */; };
 		E9117E622866FC3800D1EB3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9117E612866FC3800D1EB3E /* Preview Assets.xcassets */; };
+		E97D1D42286741F80000A7B7 /* CalculatorButtonStyleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D1D41286741F80000A7B7 /* CalculatorButtonStyleType.swift */; };
+		E97D1D442867420B0000A7B7 /* CalculatorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D1D432867420B0000A7B7 /* CalculatorButtonStyle.swift */; };
+		E97D1D472867425B0000A7B7 /* NumberText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D1D462867425B0000A7B7 /* NumberText.swift */; };
+		E97D1D49286742900000A7B7 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D1D48286742900000A7B7 /* ButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9117E572866FC3500D1EB3E /* CalculatorSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9117E5A2866FC3500D1EB3E /* CalculatorSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorSwiftUIApp.swift; sourceTree = "<group>"; };
-		E9117E5C2866FC3500D1EB3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9117E5C2866FC3500D1EB3E /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		E9117E5E2866FC3800D1EB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9117E612866FC3800D1EB3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9117E68286721EA00D1EB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E97D1D41286741F80000A7B7 /* CalculatorButtonStyleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyleType.swift; sourceTree = "<group>"; };
+		E97D1D432867420B0000A7B7 /* CalculatorButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyle.swift; sourceTree = "<group>"; };
+		E97D1D462867425B0000A7B7 /* NumberText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberText.swift; sourceTree = "<group>"; };
+		E97D1D48286742900000A7B7 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,9 @@
 		E9117E592866FC3500D1EB3E /* CalculatorSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E9117E68286721EA00D1EB3E /* Info.plist */,
 				E9117E5A2866FC3500D1EB3E /* CalculatorSwiftUIApp.swift */,
-				E9117E5C2866FC3500D1EB3E /* ContentView.swift */,
+				E97D1D4A286742E30000A7B7 /* Views */,
 				E9117E5E2866FC3800D1EB3E /* Assets.xcassets */,
 				E9117E602866FC3800D1EB3E /* Preview Content */,
 			);
@@ -65,6 +75,34 @@
 				E9117E612866FC3800D1EB3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E97D1D45286742290000A7B7 /* CalculatorButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				E97D1D41286741F80000A7B7 /* CalculatorButtonStyleType.swift */,
+				E97D1D432867420B0000A7B7 /* CalculatorButtonStyle.swift */,
+			);
+			path = CalculatorButtonStyle;
+			sourceTree = "<group>";
+		};
+		E97D1D4A286742E30000A7B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E97D1D4B2867432B0000A7B7 /* ButtonsView */,
+				E9117E5C2866FC3500D1EB3E /* CalculatorView.swift */,
+				E97D1D462867425B0000A7B7 /* NumberText.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E97D1D4B2867432B0000A7B7 /* ButtonsView */ = {
+			isa = PBXGroup;
+			children = (
+				E97D1D45286742290000A7B7 /* CalculatorButtonStyle */,
+				E97D1D48286742900000A7B7 /* ButtonsView.swift */,
+			);
+			path = ButtonsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9117E5D2866FC3500D1EB3E /* ContentView.swift in Sources */,
+				E97D1D49286742900000A7B7 /* ButtonsView.swift in Sources */,
+				E9117E5D2866FC3500D1EB3E /* CalculatorView.swift in Sources */,
+				E97D1D442867420B0000A7B7 /* CalculatorButtonStyle.swift in Sources */,
+				E97D1D472867425B0000A7B7 /* NumberText.swift in Sources */,
+				E97D1D42286741F80000A7B7 /* CalculatorButtonStyleType.swift in Sources */,
 				E9117E5B2866FC3500D1EB3E /* CalculatorSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +312,7 @@
 				DEVELOPMENT_TEAM = 8QZ5U5MR4E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalculatorSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +342,7 @@
 				DEVELOPMENT_TEAM = 8QZ5U5MR4E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalculatorSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
