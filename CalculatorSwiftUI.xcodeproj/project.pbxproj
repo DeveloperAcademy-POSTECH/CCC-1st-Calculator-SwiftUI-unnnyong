@@ -13,6 +13,7 @@
 		E9117E622866FC3800D1EB3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9117E612866FC3800D1EB3E /* Preview Assets.xcassets */; };
 		E97D1D42286741F80000A7B7 /* CalculatorButtonStyleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D1D41286741F80000A7B7 /* CalculatorButtonStyleType.swift */; };
 		E97D1D442867420B0000A7B7 /* CalculatorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D1D432867420B0000A7B7 /* CalculatorButtonStyle.swift */; };
+		E97D1D472867425B0000A7B7 /* NumberText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D1D462867425B0000A7B7 /* NumberText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E9117E68286721EA00D1EB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E97D1D41286741F80000A7B7 /* CalculatorButtonStyleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyleType.swift; sourceTree = "<group>"; };
 		E97D1D432867420B0000A7B7 /* CalculatorButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyle.swift; sourceTree = "<group>"; };
+		E97D1D462867425B0000A7B7 /* NumberText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E9117E5A2866FC3500D1EB3E /* CalculatorSwiftUIApp.swift */,
 				E97D1D45286742290000A7B7 /* CalculatorButtonStyle */,
 				E9117E5C2866FC3500D1EB3E /* CalculatorView.swift */,
+				E97D1D462867425B0000A7B7 /* NumberText.swift */,
 				E9117E5E2866FC3800D1EB3E /* Assets.xcassets */,
 				E9117E602866FC3800D1EB3E /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 			files = (
 				E9117E5D2866FC3500D1EB3E /* CalculatorView.swift in Sources */,
 				E97D1D442867420B0000A7B7 /* CalculatorButtonStyle.swift in Sources */,
+				E97D1D472867425B0000A7B7 /* NumberText.swift in Sources */,
 				E97D1D42286741F80000A7B7 /* CalculatorButtonStyleType.swift in Sources */,
 				E9117E5B2866FC3500D1EB3E /* CalculatorSwiftUIApp.swift in Sources */,
 			);
